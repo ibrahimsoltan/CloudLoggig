@@ -1,0 +1,8 @@
+2024-05-12 00:05:20,663 INFO 22412 o.s.b.StartupInfoLogger : logStarting : Starting TestLogApplication using Java 21.0.2 with PID 22412 (D:\CloudLogging\TestLog\target\classes started by Ibrahim Sultan in D:\CloudLogging\TestLog)
+2024-05-12 00:05:20,668 DEBUG 22412 o.s.b.StartupInfoLogger : logStarting : Running with Spring Boot v3.2.5, Spring v6.1.6
+2024-05-12 00:05:20,669 INFO 22412 o.s.b.SpringApplication : logStartupProfileInfo : No active profile set, falling back to 1 default profile: "default"
+2024-05-12 00:05:23,338 INFO 22412 o.s.b.StartupInfoLogger : logStarted : Started TestLogApplication in 2.979 seconds (process running for 4.221)
+2024-05-12 00:05:23,342 DEBUG 22412 o.e.t.TestLogApplication : main : 2.This is a DEBUG message.
+2024-05-12 00:05:23,343 INFO 22412 o.e.t.TestLogApplication : main : 3.This is an INFO message.
+2024-05-12 00:05:23,343 WARN 22412 o.e.t.TestLogApplication : main : 4.This is a WARN message.
+2024-05-12 00:05:23,343 ERROR 22412 o.e.t.TestLogApplication : main : 5.This is an ERROR message.

@@ -1,0 +1,26 @@
+{
+  "index_patterns": ["custom*"],
+  "settings": {
+    "number_of_shards": 1,
+    "number_of_replicas": 1
+  },
+  "mappings": {
+    "properties": {
+      "exception": {
+        "type": "text"
+      },
+      "level": {
+        "type": "keyword"
+      },
+      "loggerName": {
+        "type": "keyword"
+      },
+      "message": {
+        "type": "text"
+      },
+      "timestamp": {
+        "type": "date"
+      }
+    }
+  }
+}
