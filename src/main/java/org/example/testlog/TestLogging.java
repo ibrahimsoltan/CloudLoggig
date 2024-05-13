@@ -15,11 +15,9 @@ import java.io.IOException;
 public class TestLogging {
     ElasticsearchLoggingService  elasticsearchLoggingService;
 
-    LogShipperService logShipperService;
 
-    public TestLogging(ElasticsearchLoggingService elasticsearchLoggingService, LogShipperService logShipperService) {
+    public TestLogging(ElasticsearchLoggingService elasticsearchLoggingService ) {
         this.elasticsearchLoggingService = elasticsearchLoggingService;
-        this.logShipperService = logShipperService;
     }
 
     @GetMapping("/test")
@@ -28,11 +26,7 @@ public class TestLogging {
 
     }
 
-    @GetMapping("/test2")
-    public void testingLogs2() throws IOException {
-        logShipperService.shipLogs();
 
-    }
 
 @GetMapping ("/test3")
 public void testingLogs3() {

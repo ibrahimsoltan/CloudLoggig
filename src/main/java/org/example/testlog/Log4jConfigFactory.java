@@ -43,6 +43,7 @@ public class Log4jConfigFactory extends ConfigurationFactory {
         builder.add(builder.newRootLogger(Level.INFO)
                 .add(builder.newAppenderRef("ElasticsearchAppender"))
                 .add(builder.newAppenderRef("Console")));
+        System.out.println("Configuration is built. from factory" );
 
         return builder.build();
     }
